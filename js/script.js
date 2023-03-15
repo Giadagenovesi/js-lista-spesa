@@ -10,8 +10,8 @@ let shoppingItems = "";
 let i = 0;
 while (i < shoppingList.length) {
     console.log(shoppingList[i]);
-    i++;
     shoppingItems += `<li>${shoppingList[i]}</li>`;
+    i++;
 }
 
 console.log(shoppingItems);
